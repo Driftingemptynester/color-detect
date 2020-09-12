@@ -137,9 +137,11 @@ Pycharm 2018.2.4 x64	PowerBI	Azure认知服务		Windows10
 以图2-3为例，添加Description参数，返回json内容为：
 { "tags": [ "person", "outdoor", "sitting", "table", "man", "woman", "people", "grass", "holding", "dog", "group", "park", "standing", "glasses", "plate" ], 
 "captions": [ { "text": "a group of people sitting at a table", "confidence": 0.840579569 } ] }
+
 而添加adults参数则可以得到如下内容：
 'adult': {'isAdultContent': False, 'isRacyContent': False, 'isGoryContent': False, 'adultScore': 0.16193826496601105, 'racyScore': 0.19688065350055695,
  'goreScore': 0.5931507349014282},
+ 
 通过以上工具和数据，我们或许还可以分析出大师画作中Adult content的占比几何，又或许可以分析出大师们在他们艺术生涯的不同时期偏好的各种配色，偏好的各种绘画对象，从而推断出大师在此时期的境遇及心理表现，透过简单的数据看到更深层的内容…
 可以大胆假设，对艺术研究的从业者而言，这些工具和数据或许能给他们的工作带来更多的便利。
 感兴趣的小伙伴们也可以现在动起手来分析自己偏好的内容。希望此文能抛砖引玉，未来能看到更多有趣的作品。
